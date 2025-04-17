@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #fff0f6;
+  color: #4a2c5d;
+}
+
+header {
+  background-color: #e6b3ff;
+  padding: 20px;
+  text-align: center;
+}
+
+.projetos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.cartao {
+  background: #ffffff;
+  border: 2px dashed #c67aff;
+  border-radius: 15px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.cartao img {
+  width: 64px;
+  height: 64px;
+}
+
+.cartao a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #a64dff;
+}
+
+footer {
+  text-align: center;
+  background-color: #e6b3ff;
+  padding: 10px;
+}
